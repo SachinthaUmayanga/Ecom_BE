@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ECom_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88634c6ce1e2e5a6c66a9934240e1f5b616ac270")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a43ce7275458d6763eebfa6606d784a4c4143205")]
 [assembly: System.Reflection.AssemblyProductAttribute("ECom_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ECom_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
