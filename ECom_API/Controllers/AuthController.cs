@@ -60,30 +60,27 @@ namespace ECom_API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] User user)
         {
-            // Log the incoming data to ensure correct structure
-            Console.WriteLine($"Received Request: Email={user?.Email}, Password={user?.Password}");
-
-            // Validate if both email and password are provided
+            // Check if both email and password are provided
             if (string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
             {
-                return BadRequest("Email and Password are required.");
+                return BadRequest(new { Message = "Email and Password are required." });
             }
 
-            // Check if the user exists in the database
+            // Find user in the database
             var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == user.Email);
             if (existingUser == null)
             {
                 return Unauthorized(new { Message = "Invalid email or password!" });
             }
 
-            // Check if the password matches
+            // Verify password
             bool passwordValid = BCrypt.Net.BCrypt.Verify(user.Password, existingUser.Password);
             if (!passwordValid)
             {
                 return Unauthorized(new { Message = "Invalid email or password!" });
             }
 
-            // Return success message and user data (excluding password)
+            // Return success message and user details
             return Ok(new
             {
                 Message = "Login successful.",
