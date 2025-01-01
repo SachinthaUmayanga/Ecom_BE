@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Ecom_BE\\ECom_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|d:\\ecom_be\\ecom_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|d:\\ecom_be\\ecom_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|d:\\ecom_be\\ecom_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|d:\\ecom_be\\ecom_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|d:\\ecom_be\\ecom_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|d:\\ecom_be\\ecom_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BC8019B-879D-4BF8-8548-2351B5775306}|ECom_API.csproj|d:\\ecom_be\\ecom_api\\models\\dtos\\placeorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Ecom_BE\\ECom_API\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -42,35 +46,30 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T08:49:56.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-12-30T08:49:56.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Ecom_BE\\ECom_API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\Ecom_BE\\ECom_API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwDsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T03:04:14.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ecom_BE\\ECom_API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Ecom_BE\\ECom_API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T16:44:34.356Z",
               "EditorCaption": ""
@@ -85,18 +84,17 @@
               "RelativeToolTip": "Models\\DTOs\\PlaceOrderDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T14:09:17.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T14:09:17.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Ecom_BE\\ECom_API\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
               "ToolTip": "D:\\Ecom_BE\\ECom_API\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwDIAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T13:46:58.7Z",
               "EditorCaption": ""
